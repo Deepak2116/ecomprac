@@ -1,61 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delicious Food Online | Order Fresh Meals</title>
+<meta name="description" content="Order fresh and delicious food online with fast delivery.">
 
-    <!-- SEO Meta Tags -->
-    <title>Delicious Food Online | Order Fresh & Tasty Meals</title>
-    <meta name="description" content="Order delicious and fresh food online. Explore a variety of tasty meals prepared with quality ingredients. Fast delivery available.">
-    <meta name="keywords" content="food, online food, order food, fresh meals, tasty food, delivery">
-    <meta name="author" content="Food Website">
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
-    <!-- Open Graph (for social media sharing) -->
-    <meta property="og:title" content="Delicious Food Online">
-    <meta property="og:description" content="Order fresh and tasty food online with fast delivery.">
-    <meta property="og:type" content="website">
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f8f9fa;
+}
+
+header {
+    background: #ff4d4d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+}
+
+.hero-text p {
+    color: #555;
+}
+
+.hero img {
+    width: 350px;
+    border-radius: 20px;
+}
+
+button {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e60000;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+</style>
 </head>
 
 <body>
 
-    <!-- Main Heading -->
-    <header>
-        <h1>Delicious Food Delivered to Your Doorstep</h1>
-    </header>
+<header>
+    <h1>Foodie Hub 🍔</h1>
+    <p>Fresh. Fast. Delicious.</p>
+</header>
 
-    <!-- Hero Section -->
-    <section>
-        <h2>Fresh, Tasty & Healthy Meals</h2>
-        
-        <!-- Image with ALT for SEO -->
-        <img src="food.jpg" alt="Delicious healthy food platter" width="400">
-
-        <!-- Optimized Content -->
-        <p>
-            Discover a wide variety of delicious and freshly prepared meals. 
-            Our menu includes healthy, tasty, and affordable food options made with high-quality ingredients. 
-            Order now and enjoy fast delivery right to your doorstep.
-        </p>
-
-        <!-- Call to Action -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>Order Delicious Food Anytime</h1>
+        <p>Enjoy a wide range of tasty meals delivered straight to your doorstep. Fresh ingredients, quick delivery, and amazing taste guaranteed.</p>
         <button>Order Now</button>
-    </section>
+    </div>
+    <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" alt="Delicious Food">
+</section>
 
-    <!-- Additional SEO Content -->
-    <section>
-        <h2>Why Choose Our Food?</h2>
-        <ul>
-            <li>Fresh ingredients used daily</li>
-            <li>Fast and reliable delivery</li>
-            <li>Wide variety of cuisines</li>
-            <li>Affordable pricing</li>
-        </ul>
-    </section>
+<section class="features">
+    <div class="card">
+        <h3>Fresh Ingredients</h3>
+        <p>Only high-quality fresh ingredients used.</p>
+    </div>
+    <div class="card">
+        <h3>Fast Delivery</h3>
+        <p>Get your food delivered in minutes.</p>
+    </div>
+    <div class="card">
+        <h3>Best Taste</h3>
+        <p>Experience mouth-watering flavors.</p>
+    </div>
+</section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Food Website | All Rights Reserved</p>
-    </footer>
+<footer>
+    <p>© 2026 Foodie Hub | All Rights Reserved</p>
+</footer>
 
 </body>
 </html>
